@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+/* nav style start  */
+nav {
+  background: black;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+}
+nav .container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  height: 16vh;
+  align-items: center;
+  font-size: 170%;
+  top: 0;
+}
+a {
+  color: white;
+  transition-duration: 0.5s;
+  text-shadow: 0 0 15px white;
+  transition-property: transform;
+}
+.logo {
+  font-size: 200%;
+}
+nav .container a:hover {
+  transform: scale(1.2);
+  text-shadow: 0 0 35px white;
+}
+/* nav style end */
+/* portfolio style start  */
+.container-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container-2 .card {
+  width: 70%;
+  height: 40vh;
+  margin-block: 250px 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+}
+.container-2 .card h2 {
+  font-size: 40px;
+}
+.container-2 .card h1 {
+  font-size: 50px;
+  color: darkred;
+}
+.container-2 .box {
+  width: 80%;
+  box-shadow: 0 0 15px gray;
+  display: flex;
+  justify-content: space-around;
+  height: 60vh;
+  border-radius: 30px;
+  margin-bottom: 100px;
+}
+.container-2 .box img {
+  width: 40%;
+  height: 50vh;
+  margin-block: 50px;
+  border-radius: 30px;
+}
+.container-2 .box .left {
+  width: 40%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.container-2 .box .left button {
+  background: darkred;
+  color: white;
+  font-size: 30px;
+  height: 10vh;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0 0 20px darkred;
+}
+
+/* portfolio style end */
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+  background: rgb(21, 22, 33);
+  border: 2px double gold;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-corner {
+  background-color: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(4, 4, 71);
+  border-radius: 20px;
+  border: 2px double gold;
+}
